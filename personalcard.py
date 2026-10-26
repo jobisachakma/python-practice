@@ -1,0 +1,11 @@
+from datetime import date
+name=input("Enter your name: ")
+city=input("Enter your city: ")
+year=int(input("Enter your birth year: "))
+lang=input("Enter your favourite programming language: ")
+print("---MY PROFILE---")
+print("Name: ",name)
+print("City: ",city)
+print("Birth Year: ",year)
+print("Favourite Language: ",lang)
+print("Approximate Age: ",date.today().year-year)
